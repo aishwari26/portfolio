@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Light blue background */
+    color: #000; /* Dark text for readability */
+}
+
+header {
+    background-color: #00acc1; /* Medium light blue */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+section {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.about, .skills, .projects, .contact {
+    background: #b3e5fc; /* Light blue background for sections */
+    border: 1px solid #81d4fa; /* Slightly darker light blue border */
+}
+
+h2 {
+    color: #01579b; /* Dark blue for headers */
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background: #81d4fa; /* Slightly darker light blue for skills */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+footer {
+    background-color: #00acc1; /* Medium light blue for footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #01579b; /* Dark blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.profile-image {
+    display: block;
+    margin: 20px auto;
+    width: 150px; /* Adjust as needed */
+    height: 150px; /* Adjust as needed */
+    border-radius: 50%;
+    border: 3px solid #fff; /* White border */
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    .profile-image {
+        width: 120px;
+        height: 120px;
+    }
+}
